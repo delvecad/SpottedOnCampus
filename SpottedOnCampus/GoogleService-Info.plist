@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>815049811023-a0tk40tq80bm4ag2ie3o16jejh50mm58.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.815049811023-a0tk40tq80bm4ag2ie3o16jejh50mm58</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD_VuImFISNcOyMGFr6BZ6L6lpPJH6EqWY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>815049811023</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Spotted.SpottedOnCampus</string>
+	<key>PROJECT_ID</key>
+	<string>spotted-on-campus-b7fb7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spotted-on-campus-b7fb7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:815049811023:ios:90bb9ee935ce7439</string>
+	<key>DATABASE_URL</key>
+	<string>https://spotted-on-campus-b7fb7.firebaseio.com</string>
+</dict>
+</plist>
