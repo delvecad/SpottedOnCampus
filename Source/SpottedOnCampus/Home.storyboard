@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13178.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -58,7 +58,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QWU-Tf-2dd" userLabel="photo">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QWU-Tf-2dd" userLabel="photo">
                                                     <rect key="frame" x="0.0" y="63" width="375" height="320"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="320" id="8AY-8m-ORU"/>
@@ -78,7 +78,7 @@
                                                     <rect key="frame" x="65" y="391" width="25" height="25"/>
                                                 </imageView>
                                                 <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbJ-No-Uz3" userLabel="separator">
-                                                    <rect key="frame" x="15" y="424" width="360" height="1"/>
+                                                    <rect key="frame" x="15" y="424" width="52" height="1"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="1" id="TcX-wx-Pg5"/>
@@ -92,7 +92,7 @@
                                                     </state>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avU-SS-jAd" userLabel="commentLabel">
-                                                    <rect key="frame" x="15" y="459" width="345" height="18"/>
+                                                    <rect key="frame" x="15" y="459" width="37" height="18"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -138,12 +138,13 @@
                                                 <constraint firstItem="frd-SA-lfD" firstAttribute="leading" secondItem="ARR-8B-8q9" secondAttribute="trailing" constant="25" id="ZBV-gA-RJJ"/>
                                                 <constraint firstItem="frd-SA-lfD" firstAttribute="width" secondItem="ARR-8B-8q9" secondAttribute="width" id="Ztr-Kc-jvq"/>
                                                 <constraint firstItem="l4z-j2-cdA" firstAttribute="leading" secondItem="0UQ-d5-4oi" secondAttribute="leading" constant="15" id="buE-iX-23Q"/>
-                                                <constraint firstAttribute="trailing" secondItem="QWU-Tf-2dd" secondAttribute="trailing" id="c2q-xu-bKA"/>
                                                 <constraint firstItem="ARR-8B-8q9" firstAttribute="centerY" secondItem="l4z-j2-cdA" secondAttribute="centerY" id="dHu-n7-BMu"/>
+                                                <constraint firstAttribute="trailing" secondItem="QWU-Tf-2dd" secondAttribute="trailing" id="e7e-QA-DDM"/>
                                                 <constraint firstItem="IIL-M9-ObI" firstAttribute="centerY" secondItem="frd-SA-lfD" secondAttribute="centerY" id="f9H-bs-52v"/>
                                                 <constraint firstItem="dCW-VT-Veb" firstAttribute="leading" secondItem="tr6-nP-Mgg" secondAttribute="trailing" constant="8" id="it6-Ib-qCN"/>
                                                 <constraint firstItem="avU-SS-jAd" firstAttribute="leading" secondItem="0UQ-d5-4oi" secondAttribute="leading" constant="15" id="q3Z-aW-KMV"/>
                                                 <constraint firstItem="tr6-nP-Mgg" firstAttribute="leading" secondItem="0UQ-d5-4oi" secondAttribute="leading" constant="15" id="raN-gv-KKv"/>
+                                                <constraint firstItem="QWU-Tf-2dd" firstAttribute="leading" secondItem="0UQ-d5-4oi" secondAttribute="leading" id="sde-0A-GxZ"/>
                                                 <constraint firstItem="avU-SS-jAd" firstAttribute="top" secondItem="I3Y-dK-aYj" secondAttribute="bottom" constant="8" id="wUX-Pe-o2C"/>
                                                 <constraint firstItem="fbJ-No-Uz3" firstAttribute="leading" secondItem="0UQ-d5-4oi" secondAttribute="leading" constant="15" id="y0N-Bf-mi7"/>
                                             </constraints>
@@ -250,7 +251,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrz-iK-576">
-                                                    <rect key="frame" x="63" y="43" width="304" height="17"/>
+                                                    <rect key="frame" x="63" y="43" width="297" height="17"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
