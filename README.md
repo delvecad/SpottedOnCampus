@@ -1,7 +1,7 @@
 # Spotted on Campus
 Prototype of the Spotted on Campus iPhone app developed for Spotted, LLC.
 
-Spotted On Campus is an app that provides college students with a connecting platform to list and rent clothing to and from their peers across campus. Spotted aims to bring college students what they want most: an extra $5 and a killer outfit. They spend so much money on clothing only to be worn one night out, posted in an Instagram, and then are never able to be worn again. Those clothes just sit in the back of our closets when there are likely other people on campus who would want to wear them and are willing to pay. Spotted gives students the opportunity to share a closet with the entire campus, and to make some extra money while they're at it.
+Spotted on Campus is an app that provides college students with a connecting platform to list and rent clothing to and from their peers across campus. Spotted aims to bring college students what they want most: an extra $5 and a killer outfit. They spend so much money on clothing only to be worn one night out, posted in an Instagram, and then are never able to be worn again. Those clothes just sit in the back of our closets when there are likely other people on campus who would want to wear them and are willing to pay. Spotted gives students the opportunity to share a closet with the entire campus, and to make some extra money while they're at it.
 
 UX mockup can be seen at 
 https://adobe.ly/2FhjQAZ
